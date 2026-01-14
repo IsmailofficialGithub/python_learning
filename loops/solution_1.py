@@ -1,4 +1,4 @@
-print("Wellcome to Python Learning Series")
+print("Find Positive count of number in array")
 
 numbers=[1,-2,3,4,5,6,-7,-8,9,-10]
 positive_number_count = 0
