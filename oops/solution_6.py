@@ -21,6 +21,10 @@ class Car:
         return brand
     def fuel_type(self):
         return f"{self.__brand} {self.model} fuel type is 'Petrol or Diesel' "
+    @staticmethod
+    def general_description ():
+        return "Car are mean of transport"
+    
     
     
 class ElectricCar(Car):
@@ -36,10 +40,10 @@ class ElectricCar(Car):
         
         
 
-Car('Toyota','Corolla')
+my_car=Car('Toyota','Corolla')
 ElectricCar("Tesla","Eve1","10kwm")
 
-print(Car.total_car)
+print(Car.general_description())
 
         
         
